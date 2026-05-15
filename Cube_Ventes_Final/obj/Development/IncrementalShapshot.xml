@@ -1,0 +1,82 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>Cube_Ventes_Final</Database>
+    <Server>DESKTOP-FL20L48\MSSQLSERVER2</Server>
+    <ConnectionString>Data Source=DESKTOP-FL20L48\MSSQLSERVER2;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>Default</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>aOAtSVAX53zjP+kjS4OBu9U/nqQ=26/04/2026 11:57:4026/04/2026 11:19:47</TimeStamp>
+        <ID>
+          <String>DS_Projet</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>QdwW+ir+CJSla2Sg7bzp6RO302E=26/04/2026 11:21:0226/04/2026 11:21:02</TimeStamp>
+        <ID>
+          <String>DSV_Ventes</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>Gkj9iy/fd4yR0D5SCBZvux6BdE4=26/04/2026 11:38:4526/04/2026 11:22:00</TimeStamp>
+        <ID>
+          <String>Dim Employee Final</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>j6to6wvKjZZ2yooR+18knCihj5c=26/04/2026 11:50:5426/04/2026 11:22:00</TimeStamp>
+        <ID>
+          <String>Dim Date Final</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>4UVSbnajAzWxQA4zgqJdvcWcLcI=26/04/2026 11:43:0126/04/2026 11:22:00</TimeStamp>
+        <ID>
+          <String>Dim Customer Final</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>s3TmqpzBo9zES990UirLlWLSrbY=26/04/2026 11:42:2026/04/2026 11:22:00</TimeStamp>
+        <ID>
+          <String>Dim Product Final</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>OPBaa9e3s1z1cz+UNedflst4g4Y=26/04/2026 14:47:4926/04/2026 11:22:00LbqmfWWn30GKb5QBWMN1GXTtOvU=26/04/2026 11:22:0026/04/2026 11:22:00</TimeStamp>
+        <ID>
+          <String>DSV_Ventes</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>MusVqCt41C8qanfOXzXBceqdpAs=26/04/2026 11:15:4326/04/2026 11:15:42</TimeStamp>
+      <ID>
+        <String>Cube_Ventes_Final</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2026-05-07T01:01:09.926667Z</LastDeployed>
+</DeploymentSnapshot>

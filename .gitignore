@@ -1,0 +1,11 @@
+# Visual Studio files and folders
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Windows thumbnail cache
+Thumbs.db
+ehthumbs.db
+Desktop.ini
