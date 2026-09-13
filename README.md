@@ -1,4 +1,4 @@
-# AdventureWorks BI Solution - Decision-Support Architecture 📊
+# AdventureWorks BI Solution - Decision-Support Architecture
 
 **Timeline:** May 2026  
 **Context:** Academic Data Engineering & BI Project @ Institut International de Technologie (IIT)  
