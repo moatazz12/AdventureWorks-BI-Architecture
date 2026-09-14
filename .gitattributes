@@ -1,0 +1,4 @@
+*.dtsx linguist-language=SQL
+*.cube linguist-language=SQL
+*.dim linguist-language=SQL
+*.bim linguist-language=SQL
